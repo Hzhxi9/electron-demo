@@ -14,5 +14,7 @@ declare module '@vue/runtime-core' {
     IEpAddLocation: typeof import('~icons/ep/add-location')['default']
     IEpAim: typeof import('~icons/ep/aim')['default']
     IEpEdit: typeof import('~icons/ep/edit')['default']
+    RouterLink: typeof import('vue-router')['RouterLink']
+    RouterView: typeof import('vue-router')['RouterView']
   }
 }

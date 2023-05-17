@@ -26,6 +26,7 @@ export default defineConfig({
 		  'types': resolve("./src/types"),
 		  'assets': resolve('./src/assets')
 		},
+		extensions: ['.js', '.jsx', '.json', '.vue', '.scss', '.css'],
 	},
 	plugins: [
 		vue(),
